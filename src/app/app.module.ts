@@ -9,9 +9,10 @@ import { LoginInfoComponent } from './components/login-info/login-info.component
 import { FilteringBarComponent } from './components/filtering-bar/filtering-bar.component';
 import { SearchResultsComponent } from './components/search-results/search-results.component';
 import { SearchResultItemComponent } from './components/search-result-item/search-result-item.component';
+import { ThumbnailBlockComponent } from './components/thumbnail-block/thumbnail-block.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, SearchBarComponent, LoginInfoComponent, FilteringBarComponent, SearchResultsComponent, SearchResultItemComponent],
+  declarations: [AppComponent, HeaderComponent, SearchBarComponent, LoginInfoComponent, FilteringBarComponent, SearchResultsComponent, SearchResultItemComponent, ThumbnailBlockComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
