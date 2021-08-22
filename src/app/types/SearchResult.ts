@@ -12,7 +12,7 @@ export type Statistic = {
   commentCount: string;
 };
 
-export interface Result {
+export interface SearchResult {
   kind: string;
   etag: string;
   id: string;
