@@ -25,18 +25,18 @@ export interface SearchResult {
       default: Thumbnail;
       medium?: Thumbnail;
       high?: Thumbnail;
-      standard: Thumbnail;
-      maxres: Thumbnail;
+      standard?: Thumbnail;
+      maxres?: Thumbnail;
     };
+    channelTitle: string;
+    tags: Array<string>;
+    categoryId: string;
+    liveBroadcastContent: string;
+    localized: {
+      title: string;
+      description: string;
+    };
+    defaultAudioLanguage: string;
   };
-  channelTitle: string;
-  tags: Array<string>;
-  categoryId: string;
-  liveBroadcastContent: string;
-  localized: {
-    title: string;
-    description: string;
-  };
-  defaultAudioLanguage: string;
   statistics: Statistic;
 }
