@@ -8,9 +8,8 @@ describe('ThumbnailBlockComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ThumbnailBlockComponent ]
-    })
-    .compileComponents();
+      declarations: [ThumbnailBlockComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

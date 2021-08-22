@@ -8,9 +8,8 @@ describe('ThumbnailStatisticsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ThumbnailStatisticsComponent ]
-    })
-    .compileComponents();
+      declarations: [ThumbnailStatisticsComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
