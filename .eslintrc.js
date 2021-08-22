@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jasmine: true,
   },
   extends: [
     'airbnb-base',
@@ -13,6 +14,7 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
+    'jasmine',
   ],
   rules: {
     'import/prefer-default-export': 'off',
